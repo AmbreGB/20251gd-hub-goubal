@@ -236,7 +236,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.57, y: 2.4151936, z: 4.1076336}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   billboard: {fileID: 9628131}
-  heightOffset: 2.5
+  heightOffset: 7
 --- !u!65 &90946652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -921,7 +921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.5
+      value: 54.4
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1039,7 +1039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.35
+      value: 64.25
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1140,6 +1140,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9033eea3bbb55d142b2b9b15b10ec681, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1750197354950549132, guid: 9033eea3bbb55d142b2b9b15b10ec681, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: -1750197354950549132, guid: 9033eea3bbb55d142b2b9b15b10ec681, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: -1750197354950549132, guid: 9033eea3bbb55d142b2b9b15b10ec681, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9033eea3bbb55d142b2b9b15b10ec681, type: 3}
@@ -2384,7 +2396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   billboard: {fileID: 1522559081}
-  heightOffset: 2.5
+  heightOffset: 8
 --- !u!65 &580329249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3886,7 +3898,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.201298, y: 2.4151936, z: 4.1076336}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4116,7 +4128,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.73, y: 2.47, z: 3.79}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4409,15 +4421,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ebd5b6518e834da4bb47d5b6be337625, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebd5b6518e834da4bb47d5b6be337625, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebd5b6518e834da4bb47d5b6be337625, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebd5b6518e834da4bb47d5b6be337625, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4492,7 +4504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   billboard: {fileID: 918971629}
-  heightOffset: 2.2
+  heightOffset: 10
 --- !u!65 &1097388613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4908,7 +4920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   billboard: {fileID: 882729425}
-  heightOffset: 2.5
+  heightOffset: 7
 --- !u!65 &1212048521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6062,7 +6074,7 @@ Transform:
   m_GameObject: {fileID: 1422259466}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 79.35, y: 27.875, z: 1.780001}
+  m_LocalPosition: {x: 64.25, y: 27.875, z: 1.780001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6434,7 +6446,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.48, y: 2.4151936, z: 4.1076336}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
